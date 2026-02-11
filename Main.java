@@ -115,8 +115,8 @@ public class Main
 
                 System.out.println("Subreddit: " + subreddits.get(i));
                 System.out.println("Total Comments: " + total);
-                System.out.printf("Bots: %.2f%% (%d)\n", botPercent, bots);
-                System.out.printf("Humans: %.2f%% (%d)\n", humanPercent, humans);
+                System.out.println("Bots: " + String.format("%.2f", botPercent) + "% (" + bots + ")");
+                System.out.println("Humans: " + String.format("%.2f", humanPercent) + "% (" + humans + ")");
                 System.out.println("-----------------------------------");
             }
         }
